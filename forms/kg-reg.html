@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    form
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    form input,select
+    {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+
+<body>
+
+
+
+</body>
+<h1>Kindergarten Registry Form</h1>
+<form method="post" action="process.php">
+<input name="fname" type="text" placeholder="First Name" required>
+<input name="father" type="text" placeholder="Father's Name" required>
+<input name="gfather" type="text" placeholder="Grandather's Name" required>
+<input name="family" type="text" placeholder="Family's Name" required>
+<input name="mother" type="text" placeholder="Mother's Name" required>
+Sex
+<select name="sex" required>
+    <option>Male</option>
+    <option>Female</option>
+</select>
+<input type="date" name="birth" placeholder="Birth Date" required max="2021-12-31">
+Father's Educational Level
+<select name="fedu">
+    <option>None</option>
+    <option>Elementary</option>
+    <option>Secondary</option>
+    <option>Bachelor's</option>
+    <option>Master's</option>
+    <option>Other</option>
+</select>
+Mother's Educational Level
+<select name="medu" required>
+    <option>None</option>
+    <option>Elementary</option>
+    <option>Secondary</option>
+    <option>Bachelor's</option>
+    <option>Master's</option>
+    <option>Other</option>
+</select>
+<input name="address" type="text" placeholder="Residence Address" required>
+Do You Want Your Child To Subscribe To Bus Service?
+<select name="bus" required>
+    <option>Yes</option>
+    <option>No</option>
+
+</select>
+<input name="tel1" type="tel" placeholder="Phone Number">
+<input name="tel2" type="tel" placeholder="Second Phone Number">
+
+
+<input type="submit" value="Register my Child">
+</form>
+
+
+</html>
