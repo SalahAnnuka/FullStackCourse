@@ -7,3 +7,23 @@ body{
     background-color: black;
     color: white;
 }
+p{
+    width:fit-content;
+    height:fit-content;
+    color: white;
+    background-color: rgb(13, 70, 13);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    padding: 40px;
+    border-style: solid;
+    border-color: chartreuse;
+    border-radius: 50%;
+}
+.hi{
+    float: left;
+    color:blue;
+}
+.bye{
+    float: right;
+    color:red;
+}
