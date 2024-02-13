@@ -3,23 +3,28 @@ body{
     height:100%;
     display:flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .image{
     width: 50%;
     position:absolute;
-    animation:infinite alternate .4s changewidth;
+    animation: changewidth infinite alternate .4s;
 }
 
 .pfp{
     width: 12%;
     height: 23%;
+    padding-top: 0;
+    animation: 10s moveup;
 }
 
 .pfp-container{
     display: flex;
     align-items: center;
     justify-content: center;
+    position:relative;
 }
 
 .heart-container{
@@ -31,6 +36,15 @@ body{
     justify-content: center;
 }
 
+
+@keyframes moveup{
+    from{
+        padding-top: 80%;
+    }
+    to{
+        padding-top: 0;
+    }
+}
 
 @keyframes changewidth{
 
