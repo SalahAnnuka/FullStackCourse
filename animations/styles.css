@@ -1,7 +1,8 @@
 body{
     width:100%;
     height:100%;
-    display:block;
+    display:flex;
+    flex-direction: column;
 }
 
 .image{
@@ -13,7 +14,12 @@ body{
 .pfp{
     width: 12%;
     height: 23%;
+}
 
+.pfp-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .heart-container{
