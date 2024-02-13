@@ -43,13 +43,14 @@ body{
         opacity: 1;
         padding-top: 80%;
     }
-    70%{
+
+    95%{
         padding-top: 0;
-    }
-    80%{
+        width: 12%;
         opacity: 1;
     }
     100%{
+        width: 25%;
         opacity:0;
     }
 }
