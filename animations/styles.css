@@ -6,7 +6,7 @@ body{
 .image{
     width: 12%;
     height: 23%;
-    animation:infinite alternate .5s changewidth;
+    animation:infinite alternate .4s changewidth;
 }
 
 .container{
@@ -20,11 +20,9 @@ body{
 
     from{
         width: 12%;
-        height: 23%;
     }
 
     to{
         width: 23%;
-        height: 12%;
     }
 }
