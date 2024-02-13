@@ -19,6 +19,7 @@ body{
     padding-top: 0;
     opacity: 0;
     animation: 10s moveup forwards;
+    visibility: hidden;
 }
 
 .pfp-container{
@@ -40,6 +41,7 @@ body{
 
 @keyframes moveup{
     0%{
+        visibility: visible;
         opacity: 1;
         padding-top: 80%;
     }
@@ -52,6 +54,7 @@ body{
     100%{
         width: 25%;
         opacity:0;
+        visibility: hidden;
     }
 }
 
