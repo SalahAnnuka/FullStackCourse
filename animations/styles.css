@@ -6,4 +6,17 @@ body{
 
 .image{
     width: 12%;
+    height: 23%
+}
+
+
+@keyframes changewidth{
+
+    from{
+        width: 12%;
+    }
+
+
+
+
 }
