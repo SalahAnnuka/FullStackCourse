@@ -7,7 +7,7 @@ body{
 .image{
     width: 12%;
     height: 23%;
-    animation:infinite alternate 1s changewidth;
+    animation:infinite alternate .5s changewidth;
 }
 
 
